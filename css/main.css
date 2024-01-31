@@ -18,6 +18,7 @@ h6 {
   max-width: 1080px;
   margin: 0 auto;
   padding: 0 1rem;
+  box-sizing: border-box;
 }
 
 img {
@@ -87,4 +88,15 @@ form button {
 
 .skip-links a:focus{
   top: 0;
+}
+
+.contact-section form {
+  width: 100%;
+}
+
+.contact-section form input,
+.contact-section form textarea
+{
+  max-width: 1080px;
+  box-sizing: border-box;
 }
