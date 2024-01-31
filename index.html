@@ -61,10 +61,10 @@
           <li itemprop="telephone">Phone: 613-000-0000</li>
         </ul>
         <h3 role="heading">Address</h3>
+        <div itemscope itemtype="https://schema.org/Organization">
+          <span itemprop="brand">Jambox Studios</span>
+        </div>
         <div itemscope itemtype="https://schema.org/PostalAddress">
-          <div itemscope itemtype="https://schema.org/Organization">
-            <span itemprop="brand">Jambox Studios</span>
-          </div>
           <span itemprop="streetAddress">123 Guitar Road,</span><br>
           <span itemprop="addressLocality">Musicville,</span>
           <span itemprop="addressCountry">Danceistan</span><br>
@@ -92,8 +92,10 @@
     <!-- End of Main Content -->
 
     <!-- Footer -->
-    <footer class="site-footer" role="contentinfo">
-      &copy; 2021 Jam Box Studios
+    <footer class="site-footer" role="contentinfo" itemscope itemtype="https://schema.org/Organization">
+     <div itemprop="copyrightHolder">
+        &copy; 2021 Jam Box Studios
+     </div>
     </footer>
 
 
